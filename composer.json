@@ -1,0 +1,49 @@
+{
+  "name": "elegantech/sample",
+  "description": "PHP: Sample",
+  "type": "library",
+  "keywords": [
+  ],
+  "homepage": "https://github.com/elegantech/php-sample",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Nelson Martell",
+      "email": "nelson6e65@gmail.com",
+      "homepage": "http://nelson6e65.github.io",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/elegantech/php-sample/issues",
+    "source": "https://github.com/elegantech/php-sample"
+  },
+  "require": {
+    "php": ">=7.2"
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "^3.0",
+    "nelson6e65/code-sniffer-helpers": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Elegantech\\": "src"
+    },
+    "classmap": [
+    ],
+    "files": [
+    ]
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Elegantech\\Test\\": "tests"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0.x-dev"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
